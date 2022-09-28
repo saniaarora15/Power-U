@@ -1,0 +1,47 @@
+img {
+    max-width: 50%;
+  }
+
+  .filter{
+    display: flex;
+    flex-direction: row;
+    float:right;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    margin-right:40px;
+  }
+
+  .flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-evenly;
+    margin:40px;
+  
+  }
+
+  .search-bar{
+    display: flex;
+    align-content: space-evenly;
+    justify-content: space-between;
+    margin-right: 40px;
+  }
+
+  .apply{
+    margin-left:90px;
+    font-size: 12px;
+  }
+
+  .navbar-brand{
+    display: inline-flex;
+  }
+
+  .drop{
+    color: black;
+  }
+
+  .user{
+    margin-top:10px;
+  }
