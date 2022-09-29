@@ -11,7 +11,7 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-/* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -38,7 +38,6 @@ table {
 .panels-page {
   background-color: #423F3E;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
@@ -50,33 +49,24 @@ table {
   border-radius: 10px;
   padding: 15px 25px;
   width: 100%;
-  max-width: 960px;
+  max-width: 1000px;
   display: flex; 
-  /* flex-direction: column; */
-  /* text-align: center;
-  text-transform: uppercase; */
-  /* align-content:space-around ; */
-  /* justify-content: space-around; */
+ 
 }
 .panel img{
-    width: 350px;
-    height: 350px;
+    width:1000px ;
+    height: auto;
     margin-top: auto;
     margin-bottom: auto;
 }
 .profile-details{
   display: flex;
-  text-align: justify;
   flex-direction: column;
-  text-transform: none;
-  margin-left: 5%;
-  align-content: space-around;
-  /* margin: auto; */
-
+  
 }
 .info-box{
   display: flex;
-  margin: 10px;
+  margin: 0px,10px;
   margin-bottom: 0px;
 }
  .info-details{
@@ -94,7 +84,7 @@ table {
 .button1{
     margin-top: 10%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .close{  
@@ -106,8 +96,3 @@ table {
     border-radius: 5px;
     border: white;
 }
-
-/* .profile-pic{
-  width:50px;
-  height:auto;
-} */
