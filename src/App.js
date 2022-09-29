@@ -10,6 +10,7 @@ import Error from './Pages/Error';
 import Land from './Pages/Land';
 import Information from "./Pages/Customer/Information";
 import Cart from "./Pages/AddToCart/Cart";
+import Profile from "./Pages/Customer/Profile";
 function App() {
   return (
     <div className="App">
@@ -34,6 +35,7 @@ function App() {
         <Route path='/login-signup' exact element={<LoginSignup />} /> 
         <Route path='/provider' exact element={<Provider />} /> 
         <Route path='/information' exact element={<Information />} /> 
+        <Route path='/profile' exact element={<Profile />} /> 
         <Route path='/cart' exact element={<Cart />} /> 
         <Route path="*" exact element={<Error />} />
 

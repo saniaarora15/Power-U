@@ -6,13 +6,17 @@ function Navbar() {
     <div>
       <nav className="navbar justify-content-between">
         <div className="navbar-brand" style={{ marginLeft: "40px" }}>
-       
+        <Link
+                  to='/profile'
+                  
+                >
           <img
             src="./images/userfinal.png"
             width="100px"
             height="auto"
             alt="user"
           />
+          </Link>
           <User/>
          
         </div>

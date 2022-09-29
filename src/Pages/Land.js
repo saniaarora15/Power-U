@@ -1,8 +1,13 @@
 import logo from '../logo.png'; 
 import '../Land.css';
 import{Link} from 'react-router-dom';
+// import { bounce } from 'react-animations';
+// import styled, { keyframes } from 'styled-components';
 
 function Land() {
+
+  // const Bounce = styled.div `animation :2s ${ keyframes` ${ bounce } `}` ;
+
   return (
     <div className="Land">
       <header className="Land-header">
@@ -18,7 +23,6 @@ function Land() {
       <Link
               to='/login-signup'
               className='btn-link'
-              
             >
       <button type="button" class="btn btn-primary">Let's begin</button>
       </Link>
